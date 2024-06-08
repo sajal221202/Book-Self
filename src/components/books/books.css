@@ -1,0 +1,76 @@
+/* books.css */
+
+.booklist {
+    padding: 2rem 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .booklist-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .book-item {
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .book-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-item-img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .book-item-info {
+    padding: 1rem;
+  }
+  
+  .book-item-info-item {
+    margin-bottom: 0.5rem;
+  }
+  
+  .book-item-info-item.title {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  
+  .book-item-info-item.edition-count {
+    font-size: 0.9rem;
+  }
+  
+  .addShelf-btn button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .addShelf-btn button:hover {
+    background-color: #45a049;
+  }
+  
+  .addShelf-btn button:active {
+    transform: translateY(1px);
+  }
+  
+  .addShelf-btn button.remove {
+    background-color: #f44336;
+  }
+  
+  .addShelf-btn button.remove:hover {
+    background-color: #d32f2f;
+  }
+  

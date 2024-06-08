@@ -1,0 +1,85 @@
+/* shelf.css */
+
+/* Shelf heading */
+.shelf {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px; /* Adjust padding as needed */
+    background-color: #007bff; /* Change header background color */
+    color: #fff; 
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+.shelf-h {
+    font-weight: 800;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  /* Booklist section */
+  .booklist {
+    padding: 20px; /* Add padding as needed */
+  }
+  
+  /* Container for book list */
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Booklist content */
+  .booklist-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px; /* Adjust gap between books */
+  }
+  
+  /* Book item */
+  .book-item {
+    background-color: #f9f9f9; /* Change background color for book item */
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for each book item */
+  }
+  
+  /* Book item info */
+  .book-item-info {
+    padding: 20px; /* Add padding for book item info */
+  }
+  
+  /* Book title */
+  .book-item-info-item.title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  /* Edition count */
+  .book-item-info-item.edition-count {
+    font-size: 14px;
+    color: #555; /* Change color for edition count */
+  }
+  
+  /* Add to shelf button container */
+  .addShelf-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; /* Adjust margin as needed */
+  }
+  
+  /* Add to shelf button */
+  .addShelf-btn button {
+    background-color: #007bff; /* Change button background color */
+    color: #fff; /* Change button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addShelf-btn button:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+  }
+  
