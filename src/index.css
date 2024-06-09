@@ -7,6 +7,28 @@
   --light-black-color: #717171;
   --transition: all 300ms ease-in-out;
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background: repeating-radial-gradient(circle at 0 0, transparent 0, rgba(255, 255, 255, 0.6) 72px), 
+  repeating-linear-gradient(rgba(0, 123, 255, 0.2), rgba(0, 123, 255, 0.4));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #ffffff;
+  animation: fadeIn 2s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
 
 *{
   padding: 0;
